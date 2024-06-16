@@ -1,0 +1,110 @@
+a.nav-link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active {
+  text-decoration: none;  
+  color: black;
+  transition: font-size 0.4s ease;
+}
+
+a.nav-link:hover {
+  font-size: 16.7px;
+  color: #ff9800;
+}
+
+.header {
+  padding: 10px 20px;
+  background-color: #fffbf4;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 90px;
+  margin-right: 20px;
+  transition: size 0.3s ease;
+}
+
+.navbar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-links, .nav-links-2 {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li, .nav-links-2 li {
+  margin: 0 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-login-get-started {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-login-get-started .login {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-login-get-started .nav-links-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.header-get-started-button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-get-started-button:hover {
+  background-color: #f6a93c;
+  transform: scale(1.01);
+}
+
+/* Dropdown menu styles for "Product & Integrations" */
+.nav-links li:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffbf4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: #fffbf4;
+}
