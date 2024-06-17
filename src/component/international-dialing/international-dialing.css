@@ -1,0 +1,38 @@
+.parallel-power-dialing-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .parallel-power-dialing-container p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .parallel-power-dialing-container button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .parallel-power-dialing-container button:hover {
+    background-color: #f4a83d;
+    transform: scale(1.01);
+  }
+  
+  .trusted-companies-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .orange-rectangle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }

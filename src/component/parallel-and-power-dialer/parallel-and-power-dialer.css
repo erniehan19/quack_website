@@ -1,0 +1,160 @@
+/* parallel-and-power-dialer.css */
+
+.parallel-power-dialing-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .parallel-power-dialing-container p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .parallel-power-dialing-container button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .parallel-power-dialing-container button:hover {
+    background-color: #f4a83d;
+    transform: scale(1.01);
+  }
+  
+  .trusted-companies-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* features-and-testimonial.css */
+
+.features-testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.orange-rectangle-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.orange-rectangle-2-img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+    width: 29%;
+    border-radius: 10px;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 800px;
+}
+
+.boast-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-title {
+    color: #777;
+}
+  
+/* key-features.css */
+
+.key-features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.feature-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feature-text p {
+    font-size: 1em;
+    color: #555;
+}
+
+.feature-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}

@@ -119,7 +119,7 @@ function Homepage() {
                 </div>
             </div>
             <div className="pricing-section">
-                <h2>Does It Cost A Lot?</h2>
+                <h1>Does It Cost A Lot?</h1>
                 <div className="toggle-buttons">
                     <button className={`toggle-button ${isMonthly ? 'active' : ''}`} onClick={handleToggleClick}>Monthly</button>
                     <button className={`toggle-button ${!isMonthly ? 'active' : ''}`} onClick={handleToggleClick}>Annual <span className="discount">25% OFF</span></button>

@@ -1,0 +1,136 @@
+/* integrate.css */
+
+.integrate-container {
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 200px;
+}
+
+.orange-rectangle {
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+.rectangle-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    color: #ff7e00;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff7e00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff9800;
+}
+
+.logos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.featured-integrations-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.featured-integrations-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.integration-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.integration-card:hover {
+    transform: translateY(-5px);
+}
+
+.integration-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.integration-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.integration-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.integration-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+.integration-button {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.integration-button:hover {
+    background: #d0d0d0;
+}

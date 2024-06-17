@@ -427,18 +427,18 @@ h1 {
 .questions-section h2 {
     font-size: 1.5em;
     margin-bottom: 20px;
-    font-weight: bold; /* Make the header text bold */
+    font-weight: bold;
 }
 
 .question-box {
-    border: 2px solid #ccc; /* Make the border thicker */
+    border: 2px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-    padding: 20px 15px; /* Adjust padding to control space around text */
+    padding: 20px 15px;
     cursor: pointer;
-    text-align: left; /* Left-align the text */
-    background-color: #fff; /* Default background color */
-    color: #000; /* Default text color */
+    text-align: left;
+    background-color: #fff; 
+    color: #000; 
 }
 
 .question-box.active {
@@ -447,8 +447,8 @@ h1 {
 
 .question-placeholder {
     font-size: 1em;
-    color: inherit; /* Inherit color from parent */
-    font-weight: bold; /* Make the placeholder text bold */
+    color: inherit;
+    font-weight: bold; 
 }
 
 .question-content {
@@ -459,6 +459,6 @@ h1 {
 }
 
 .question-box.active .question-content {
-    max-height: 100px; /* Adjust this value according to the content size */
-    padding: 10px 15px; /* Add padding when active */
+    max-height: 100px;
+    padding: 10px 15px;
 }
