@@ -9,6 +9,7 @@ import logoRectangle from '../../assets/logo-rectangle.png'; // Import the new l
 import hubspotLogo from '../../assets/hubspot-logo.png'; // Correct logo imports
 import salesloftLogo from '../../assets/salesloft-logo.png';
 import outreachLogo from '../../assets/outreach-logo.png';
+import quackVideo from '../../assets/quack-video.mp4';
 
 function Homepage() {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -30,6 +31,24 @@ function Homepage() {
     const handleToggleClick = () => {
         setIsMonthly(!isMonthly);
     };
+
+    //video play button react code
+    const [isPlaying, setIsPlaying] = useState(false);
+    const videoRef = useRef(null);
+
+    const handlePlayClick = () => {
+        const video = videoRef.current;
+        if (video) {
+            if (video.paused) {
+                video.play();
+                setIsPlaying(true);
+            } else {
+                video.pause();
+                setIsPlaying(false);
+            }
+        }
+    };
+
 
     return (
         <>
@@ -61,8 +80,21 @@ function Homepage() {
                     Quack transforms cold calling into an effective channel to book meetings. <br/>
                     Save hours per day & book more meetings over the phone.
                 </p>
-                <div className='product-video'>
-                    <img className='play-button' src={playButton} alt='Play button'/>
+                <div className='video-section'>
+                    <div className='video-container'>
+                        <video ref={videoRef} id='video' className='video' src={quackVideo} controls={false} onClick={handlePlayClick}/>
+                        {
+                            !isPlaying && (
+                                <img
+                                    src={playButton}
+                                    alt="Play button"
+                                    className='play-button'
+                                    onClick={handlePlayClick}
+                                />
+                            )
+                        }
+                    </div>
+
                 </div>
                 <div className='arrow-built-by-SDR'>
                     <img className='orange-arrow' src={orangeArrow} alt='Arrow'/>

@@ -96,23 +96,42 @@ h1 {
     line-height: 1.5;
 }
 
-.product-video {
-    width: 100%;
-    max-width: 800px;
-    height: 400px;
-    background-color: #fefaf6;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+.video-section {
+    text-align: center;
     padding: 20px;
+    margin-bottom: 50px;
+}
+
+.video-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .play-button {
-    width: 60px;
-    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.play-button:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.play-button {
+    width: 80px;
+    height: 80px;
     margin-top: 0px;
 }
 
@@ -129,7 +148,6 @@ h1 {
 
 .sdrs-note {
     font-size: 1em;
-    color: #ff9800;
     margin-top: 50px;
     margin-bottom: 3000px;
 }
@@ -182,15 +200,6 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 200px;
-}
-
-.integrate-section h2 {
-    font-size: 2em;
-    color: #ff9800;
-    margin-bottom: 10px;
-    background: linear-gradient(to right, #ff9800, #ff5722); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .integrate-section p {
@@ -249,15 +258,6 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.pricing-section h2 {
-    font-size: 2em;
-    color: #ff9800;
-    margin-bottom: 20px;
-    background: linear-gradient(to right, #ff9800, #ff5722);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .toggle-buttons {
