@@ -1,0 +1,121 @@
+.comparison-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.comparison-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comparison-container p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.comparison-table {
+    display: table;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.comparison-header, .comparison-row {
+    display: table-row;
+}
+
+.comparison-header .comparison-brand, 
+.comparison-row .comparison-feature, 
+.comparison-row .comparison-brand-feature {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+.comparison-header .comparison-brand {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.comparison-header .comparison-brand img {
+    width: 70px;
+}
+
+.comparison-row .comparison-feature {
+    text-align: left;
+    font-weight: bold;
+}
+
+.comparison-row .comparison-brand-feature {
+    text-align: center;
+}
+
+.comparison-row .comparison-brand-feature img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+/* Dropdown CSS */
+
+.dropdown-container-2 {
+    display: inline-block;
+}
+
+.dropdown-content-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 5px;
+}
+
+.dropdown-item-2 {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Ensures items have border-radius */
+}
+
+.dropdown-item-2:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-item-2 img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Dropdown Header CSS */
+
+.dropdown-header-2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px; /* Match the dropdown items */
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-header-2 img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.dropdown-header-2 span {
+    font-size: 14px;
+    margin-left: auto;
+}

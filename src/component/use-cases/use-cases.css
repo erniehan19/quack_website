@@ -94,7 +94,7 @@
 .tabs {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 40px auto;
 }
 
 .tabs button {

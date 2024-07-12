@@ -260,6 +260,8 @@ h1 {
     margin-bottom: 50px;
 }
 
+
+
 .toggle-buttons {
     display: flex;
     justify-content: center;
@@ -320,12 +322,12 @@ h1 {
 }
 
 .pricing-card h4 {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
 .pricing-card h4 span {
-    font-size: 0.5em;
+    font-size: 0.3em;
     color: #777;
 }
 
