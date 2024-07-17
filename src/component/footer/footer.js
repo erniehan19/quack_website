@@ -26,11 +26,17 @@ function Footer() {
                 <div className='footer-column'>
                     <h4>Resources</h4>
                     <ul>
-                        <li>Blog</li>
-                        <li>Slack Community</li>
-                        <li>Privacy</li>
+                        <a href='https://thecoldcallreport.substack.com/' className='nav-link'>
+                            <li>The Cold Call Report</li>
+                        </a>
+                        <a href='https://join.slack.com/t/quuuuuack/shared_invite/zt-2mvzyhvys-cUpS2RYJuq6KbkH~IORwGg' className='nav-link'>
+                            <li>Slack Community</li>
+                        </a>
+                        <li><Link to="/privacy" className='nav-link'>Privacy</Link></li>
                         <li>Terms</li>
-                        <li>Help Center</li>
+                        <a href='https://help.quackdials.com/en' className='nav-link'>
+                            <li>Help Center</li>
+                        </a>
                     </ul>
                 </div>
                 <div className='footer-column'>

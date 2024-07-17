@@ -11,6 +11,7 @@ import ParallelAndPowerDialer from './component/parallel-and-power-dialer/parall
 import InternationalDialing from './component/international-dialing/international-dialing';
 import AnalyticsAndContentsCard from './component/analytics-and-contents-cards/analytics-and-contents-cards';
 import Integrations from './component/integrations/integrations';
+import Privacy from './component/footer/privacy/privacy';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/analytics-and-content-cards" element={<AnalyticsAndContentsCard />} />
         <Route path="/international-dialing" element={<InternationalDialing />} />
         <Route path="/integrations" element={<Integrations />} />
+        <Route path="privacy" element={<Privacy />} />
       </Routes>
       <Footer />
     </Router>

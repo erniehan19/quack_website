@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import './pricing.css'
 import orumLogo from './assets/orum-logo.png'
 import nooksLogo from './assets/nooks-logo.png'
@@ -9,6 +9,20 @@ import checkMark from './assets/checkmark.png'
 function Pricing() {
 
     const [pricing, setPricing] = useState('monthly')
+    const [activeIndex, setActiveIndex] = useState(null);
+    const contentRefs = useRef([]);
+
+    const handleAccordionClick = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+
+    useEffect(() => {
+        contentRefs.current.forEach((content, index) => {
+            if (content) {
+                content.style.maxHeight = activeIndex === index ? `${content.scrollHeight}px` : '0px';
+            }
+        });
+    }, [activeIndex]);
 
     const togglePricing = () => {
         switch (pricing) {
@@ -277,31 +291,22 @@ function Pricing() {
                     create more conversations on the phone.
                 </p>
             </div>
-            {/* <div className='dropdown-container'>
-                <div className='dropdown-header' onClick={toggleDropdown}>
-                    <img src={
-                          logo === 'orum' ? orumLogo 
-                        : logo === 'nooks' ? nooksLogo 
-                        : logo === 'phone-burner' ? phoneBurnerLogo: orumLogo} 
-                        alt='logo'
-                    />
-                    <span>▼</span>
-                </div>
-                {dropdown && (
-                    <div className='dropdown-content'>
-                        <div className='dropdown-item' onClick={toggleLogo('orum')}>
-                            <img src={orumLogo} alt='Orum logo'/>
-                        </div>
-                        <div className='dropdown-item' onClick={toggleLogo('nooks')}>
-                            <img src={nooksLogo} alt='Nooks logo'/>
-                        </div>
-                        <div className='dropdown-item' onClick={toggleLogo('phone-burner')}>
-                            <img src={phoneBurnerLogo} alt='Phone Burner logo'/>
+            {renderLogoContent()}
+            <div className="questions-section">
+                <h2>Frequently Asked Questions</h2>
+                {["What is Quack?", "How does it work?", "What are the benefits?", "How much does it cost?", "Is there a free trial?", "How do I sign up?"].map((question, index) => (
+                    <div
+                        key={index}
+                        className={`question-box ${activeIndex === index ? 'active' : ''}`}
+                        onClick={() => handleAccordionClick(index)}
+                    >
+                        <div className="question-placeholder">Question {index + 1}: {question}</div>
+                        <div className="question-content" ref={(el) => (contentRefs.current[index] = el)}>
+                            Answer: This is the answer to question {index + 1}.
                         </div>
                     </div>
-                )}
-            </div> */}
-            {renderLogoContent()}
+                ))}
+            </div>
         </>
     )
 
