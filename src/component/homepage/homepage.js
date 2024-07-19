@@ -52,8 +52,8 @@ function Homepage() {
 
     return (
         <>
-            <div className='body-content'>
-                <div className='body-main-content'>
+            <div className='body-content-homepage'>
+                <div className='body-main-content-homepage'>
                     <h1> More Conversations. <br/> More Pipeline. </h1>
                     <p> 
                         Quack is a parallel dialer that enables you to call multiple prospects <br />

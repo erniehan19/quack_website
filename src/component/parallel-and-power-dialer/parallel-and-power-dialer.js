@@ -38,9 +38,9 @@ function ParallelAndPowerDialer() {
                     <img src={orangeRectangle} alt="Orange Rectangle" className="orange-rectangle-img" />
                 </div>
                 <div className="features">
-                    <img src={card1} alt="1-click integration" className="feature-card" />
-                    <img src={card2} alt="Simple to use" className="feature-card" />
-                    <img src={card3} alt="10X Faster Dialing" className="feature-card" />
+                    <img src={card1} alt="1-click integration" className="feature-card-power" />
+                    <img src={card2} alt="Simple to use" className="feature-card-power" />
+                    <img src={card3} alt="10X Faster Dialing" className="feature-card-power" />
                 </div>
                 <div className="testimonial">
                     <img src={boastLogo} alt="Boast Logo" className="boast-logo" />

@@ -13,19 +13,49 @@ function Privacy () {
                 </div>
                 <div className="privacy-content">
                     <h2>Privacy Notice</h2>
-                    <p>This privacy notice for Quack Labs Inc. (“Company,” “we,” “us,” or “our”), describes how and why we might collect, store, use, and/or share (“process”) your information when 
-                        you use our services (“Services”), such as when you:</p>
-                    <ul>
-                        <li>Visit our website at <a href="https://www.quackdials.com">https://www.quackdials.com</a>, or any website of ours that links to this privacy notice</li>
-                        <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+                    <p>This privacy notice for Quack Labs Inc. (<b>“Company,”</b> <b>“we,”</b> <b>“us,”</b> or <b>“our”</b>), describes how and why we might collect, store, 
+                        use, and/or share (<b>“process”</b>) your information when you use our services (<b>“Services”</b>), such as when you:</p>
+                    <ul className="custom-bullets">
+                        <li><p>Visit our website at <a href="https://www.quackdials.com">https://www.quackdials.com</a>, or any website of ours that links to this privacy notice</p></li>
+                        <li><p>Engage with us in other related ways, including any sales, marketing, or events</p></li>
                     </ul>
                     <p>Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, 
                         please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:support@quackdials.co">support@quackdials.co</a>.</p>
                     
                     <h3>Summary Of Key Points</h3>
-                    <p><i>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point 
-                        or by using our table of contents below to find the section you are looking for. You can also click <a href="#">here</a> to go directly to our table of contents.</i></p>
-                    <div className="toc">
+                    <b><p><i>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point 
+                        or by using our table of contents below to find the section you are looking for. You can also click <a href="#toc">here</a> to go directly to our table of contents.</i></p></b>
+                    <p>
+                        <b>What personal information do we process?</b> When you visit, use, or navigate our Services, we may process personal information depending on how you 
+                        interact with Quack Labs Inc. and the Services, the choices you make, and the products and features you use. Click <a href="https://www.quackdials.com">here</a> to learn more.<br/> <br/>
+
+                        <b>Do we process any sensitive personal information?</b> We do not process sensitive personal information.<br/> <br/>
+
+                        <b>Do we receive any information from third parties?</b> We may receive information from public databases, marketing partners, social media platforms, and other outside 
+                        sources. Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#personalinfo">here</a> to learn more.<br/> <br/>
+
+                        <b>How do we process your information?</b> We process your information to provide, improve, and administer our Services, communicate with you, for security and 
+                        fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a 
+                        valid legal reason to do so. Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#othersources">here</a> to learn more.<br/> <br/>
+
+                        <b>In what situations and with which types of parties do we share personal information?</b> We may share information in specific situations and with specific 
+                        categories of third parties. Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#whoshare">here</a> to learn more.<br/> <br/>
+
+                        <b>How do we keep your information safe?</b> We have organizational and technical processes and procedures in place to protect your personal information. 
+                        However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee 
+                        that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. 
+                        Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#infosafe">here</a> to learn more.<br/> <br/>
+
+                        <b>What are your rights?</b> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal 
+                        information. Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#privacyrights">here</a> to learn more.<br/> <br/>
+
+                        <b>How do you exercise your rights?</b> The easiest way to exercise your rights is by filling out our data subject request form available 
+                        <a href="https://app.termly.io/notify/19c3abb9-8591-4343-bdc9-76a73d0b31e0"> here</a>, or by contacting us. 
+                        We will consider and act upon any request in accordance with applicable data protection laws.<br/> <br/>
+
+                        Want to learn more about what Quack Labs Inc. does with any information we collect? Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#toc">here</a> to review the notice in full.
+                    </p>
+                    <div className="toc" id="toc">
                         <h4>Table of Contents</h4>
                         <ul className="uppercase">
                             <li><a href="#section1">1. What information do we collect?</a></li>
@@ -76,7 +106,7 @@ function Privacy () {
 
                             <b>Social Media Login Data.</b> We may provide you with the option to register with us using your existing social media account details, 
                             like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described 
-                            in the section called “HOW DO WE HANDLE YOUR SOCIAL LOGINS?” below. <br/>
+                            in the section called <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#sociallogins">“HOW DO WE HANDLE YOUR SOCIAL LOGINS?”</a> below. <br/>
                             <br/>
 
                             All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information. <br/>
@@ -176,7 +206,7 @@ function Privacy () {
                             <b><i><u>If you are located in Canada, this section applies to you.</u></i></b> <br/> <br/>
 
                             We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations 
-                            where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time. Click here to learn more.
+                            where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time. Click <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#withdrawconsent">here</a> to learn more.
 
                             In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example: <br/>
                             <ul className="custom-bullets">
@@ -307,18 +337,18 @@ function Privacy () {
                             In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, 
                             (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the 
                             right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section 
-                            “HOW CAN YOU CONTACT US ABOUT THIS NOTICE?” below. <br/><br/>
+                            <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#contact"> “HOW CAN YOU CONTACT US ABOUT THIS NOTICE?”</a> below. <br/><br/>
 
                             We will consider and act upon any request in accordance with applicable data protection laws. <br/><br/>
 
                             If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. 
-                            You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm. <br/><br/>
+                            You can find their contact details here: <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm">https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>. <br/><br/>
 
-                            If you are located in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html. <br/><br/>
+                            If you are located in Switzerland, the contact details for the data protection authorities are available here: <a href="https://www.edoeb.admin.ch/edoeb/en/home.html">https://www.edoeb.admin.ch/edoeb/en/home.html</a>. <br/><br/>
 
                             <b><u>Withdrawing your consent:</u></b> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right 
                             to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section 
-                            “HOW CAN YOU CONTACT US ABOUT THIS NOTICE?” below. <br/><br/>
+                            <a href="https://www-quackdials-com.filesusr.com/html/f41a4d_2c31eea0671e151c7f2b958facc9bb4d.html#contact"> “HOW CAN YOU CONTACT US ABOUT THIS NOTICE?”</a> below. <br/><br/>
 
                             However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information 
                             conducted in reliance on lawful processing grounds other than consent. <br/><br/>
@@ -337,14 +367,15 @@ function Privacy () {
                             <ul className="custom-bullets">
                                 <li><p>Contact us using the contact information provided.</p></li>
                             </ul>
-                            Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases.
+                            Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases.<br/><br/>
 
-                            However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
+                            However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable 
+                            legal requirements.<br/><br/>
 
-                            Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies.
+                            <b><u>Cookies and similar technologies:</u></b> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. <br/><br/>
 
                             If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt out of interest-based advertising by advertisers on our 
-                            Services visit <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>.
+                            Services visit <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>. <br/><br/>
 
                             If you have questions or comments about your privacy rights, you may email us at <a href="mailto:support@quackdials.co">support@quackdials.co</a>.
                         </p>
@@ -468,10 +499,6 @@ function Privacy () {
                             bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
                         </p>
                     </div>
-                    
-
-
-
 
                     <div id="section13">
                         <h3 className="privacy-title">13. Do we make updates to this notice?</h3>

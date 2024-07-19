@@ -3,7 +3,7 @@
 .parallel-power-dialing-container {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: #fffbf4;
   }
   
   .parallel-power-dialing-container p {
@@ -14,7 +14,6 @@
   
   .parallel-power-dialing-container button {
     background-color: #ff9800;
-    color: white;
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
@@ -62,7 +61,7 @@
     margin-bottom: 40px;
 }
 
-.feature-card {
+.feature-card-power {
     width: 29%;
     border-radius: 10px;
 }
@@ -125,10 +124,6 @@
     margin-bottom: 40px;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.feature-item:nth-child(even) {
-    /* flex-direction: row-reverse; */
 }
 
 .feature-text {

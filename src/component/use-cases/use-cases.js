@@ -14,17 +14,17 @@ function UseCases() {
             case 'SDRs':
                 return (
                     <>
-                        <div class="feature-container">
-                            <div class="feature-card">
+                        <div class="feature-container-use-cases">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Who wants to spend 4 hours dialing anymore?</h2>
                                     <p>Parallel dialing allows you to dial 10X faster, getting you to more conversations in way less time than dialing prospects 1 by 1 out of an SEP.</p>
                                 </div>
                             </div>
-                            <div class="feature-card">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Dial 10X more prospects</h2>
                                     <p>It takes 8 cold calls attempts on average to get someone on the phone. Reach out to more prospects & touch existing ones 4-5X more.</p>
                                 </div>
@@ -78,10 +78,10 @@ function UseCases() {
             case 'Account Executives':
                 return (
                     <>
-                        <div class="feature-container">
-                            <div class="feature-card">
+                        <div class="feature-container-use-cases">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Get your dials in during your <br/> busy schedule</h2>
                                     <p>
                                        We know that doing demos, getting docusigns <br/>
@@ -90,9 +90,9 @@ function UseCases() {
                                     </p>
                                 </div>
                             </div>
-                            <div class="feature-card">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Dial 10X more prospects</h2>
                                     <p>It takes 8 cold calls attempts on average to get someone on the phone. Reach out to more prospects & touch existing ones 4-5X more.</p>
                                 </div>
@@ -130,17 +130,17 @@ function UseCases() {
             case 'SDR Managers':
                 return (
                     <>
-                    <div class="feature-container">
-                            <div class="feature-card">
+                    <div class="feature-container-use-cases">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Who wants to spend 4 hours dialing anymore?</h2>
                                     <p>Parallel dialing allows you to dial 10X faster, getting you to more conversations in way less time than dialing prospects 1 by 1 out of an SEP.</p>
                                 </div>
                             </div>
-                            <div class="feature-card">
+                            <div class="feature-card-use-cases">
                                 <img src={userPhoto} alt='user' />
-                                <div class="feature-content">
+                                <div class="feature-content-use-cases">
                                     <h2>Dial 10X more prospects</h2>
                                     <p>It takes 8 cold calls attempts on average to get someone on the phone. Reach out to more prospects & touch existing ones 4-5X more.</p>
                                 </div>
@@ -196,7 +196,7 @@ function UseCases() {
                         <div className='text-content'>
                             <h2>Parallel & Power Dialer for SDRs</h2>
                             <h1>AI powered dialer that gets you <br /> more meetings in 10% of the time</h1>
-                            <p>Quack turns 3 hours of dialing into 20 minutes while significantly boosting connect rates, conversations & booked meetings.</p>
+                            <p>Quack turns 3 hours of dialing into 20 minutes while significantly boosting <br/>connect rates, conversations & booked meetings.</p>
                             <a href="https://calendly.com/jakedicarlo/quack-dialer-demo-30min?month=2024-06" className='get-started-link'>
                                 <button className='cta-button'>Get Started</button>
                             </a>

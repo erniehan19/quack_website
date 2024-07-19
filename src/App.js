@@ -12,6 +12,7 @@ import InternationalDialing from './component/international-dialing/internationa
 import AnalyticsAndContentsCard from './component/analytics-and-contents-cards/analytics-and-contents-cards';
 import Integrations from './component/integrations/integrations';
 import Privacy from './component/footer/privacy/privacy';
+import Terms from './component/footer/terms/terms';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/international-dialing" element={<InternationalDialing />} />
         <Route path="/integrations" element={<Integrations />} />
         <Route path="privacy" element={<Privacy />} />
+        <Route path="terms" element={<Terms />} />
       </Routes>
       <Footer />
     </Router>

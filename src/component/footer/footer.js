@@ -33,7 +33,7 @@ function Footer() {
                             <li>Slack Community</li>
                         </a>
                         <li><Link to="/privacy" className='nav-link'>Privacy</Link></li>
-                        <li>Terms</li>
+                        <li><Link to="/terms" className='nav-link'>Terms</Link></li>
                         <a href='https://help.quackdials.com/en' className='nav-link'>
                             <li>Help Center</li>
                         </a>
