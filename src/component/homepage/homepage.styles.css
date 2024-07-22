@@ -464,3 +464,17 @@ h1 {
     max-height: 100px;
     padding: 10px 15px;
 }
+
+.homepage-total-calls {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.homepage-total-calls h2 {
+    margin-bottom: -50px;
+}
+
+.homepage-total-calls h1 {
+    font-size: 80px;
+}

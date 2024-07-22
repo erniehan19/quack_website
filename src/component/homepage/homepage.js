@@ -11,7 +11,71 @@ import salesloftLogo from '../../assets/salesloft-logo.png';
 import outreachLogo from '../../assets/outreach-logo.png';
 import quackVideo from '../../assets/quack-video.mp4';
 
+/*For call number updates*/
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseURL = 'https://your-supabase-url.supabase.co';
+const supabaseKey = 'your-supabase-key'
+const supabase = createClient(supabaseURL, supabaseKey);
+
+
 function Homepage() {
+    const animateCount = (start, end, duration, onUpdate) => {
+        const startTime = performance.now();
+      
+        const step = (currentTime) => {
+          const elapsedTime = currentTime - startTime;
+          const progress = Math.min(elapsedTime / duration, 1);
+          const currentCount = Math.floor(progress * (end - start) + start);
+      
+          onUpdate(currentCount);
+      
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          }
+        };
+      
+        requestAnimationFrame(step);
+      };
+
+      const [visibleCalls, setVisibleCalls] = useState(0);
+      useEffect(() => {
+        // Animate the count whenever totalCalls updates
+        animateCount(0, 5000, 1200, setVisibleCalls); // 2000ms (2 seconds) duration
+      },[]);
+
+//     const [callNumber, setCallNumber] = useState(null);
+
+// useEffect(()=> {
+//     const fetchCallNumber = async() => {
+//         const {data, error} = await supabase
+//             .from("calls")
+//             .select("count")
+//             .single();
+
+//         if (error) {
+//             console.log("Error occured", error)
+//         } else {
+//             setCallNumber(data.count);
+//         }
+//     };
+
+//     fetchCallNumber();
+
+//     /* Real-time update */
+//     const subscription = supabase
+//         .from("calls")
+//         .on('*', payload => {
+//             fetchCallNumber();
+//         }).subscribe();
+    
+//     /* automatically removes subscription (auto update) when components unmount */
+//     return () => {
+//         supabase.removeSubscription(subscription);
+//     };
+// }, []);
+
+
     const [activeIndex, setActiveIndex] = useState(null);
     const [isMonthly, setIsMonthly] = useState(true);
     const contentRefs = useRef([]);
@@ -59,7 +123,7 @@ function Homepage() {
                         Quack is a parallel dialer that enables you to call multiple prospects <br />
                         simultaneously so you can speak to 2-3x more prospects per call block.
                     </p>
-                    <img className='rating-image' src={ratingImage} alt='Rating' />
+                    <a href='https://www.g2.com/products/quack/reviews' target="_blank" rel="noreferrer"><img className='rating-image' src={ratingImage} alt='Rating' /></a>
                     <a href="https://calendly.com/jakedicarlo/quack-dialer-demo-30min?month=2024-06" className='get-started-link'>
                         <button className='get-started-button'>Get Started</button>
                     </a>
@@ -221,6 +285,11 @@ function Homepage() {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className='homepage-total-calls'>
+                <h2 className='total-calls-title'>Total Calls Made Using Quack</h2>
+                {/* {callNumber !== null ? <h1 className='total-call-number'>{callNumber}</h1>: <h1 className='total-call-number-loading'>Loading...</h1>} */}
+                <h1>{visibleCalls}</h1>
             </div>
         </>
     );
