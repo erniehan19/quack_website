@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/quack_website/static/css/main.3ddfdb71.css",
+    "main.js": "/quack_website/static/js/main.64421070.js",
+    "static/js/952.65dfea9e.chunk.js": "/quack_website/static/js/952.65dfea9e.chunk.js",
+    "static/js/453.c277977f.chunk.js": "/quack_website/static/js/453.c277977f.chunk.js",
+    "static/media/quack-video.mp4": "/quack_website/static/media/quack-video.34e3b4eb939f8642354e.mp4",
+    "static/media/international-dialing.png": "/quack_website/static/media/international-dialing.8ebac3ddf931c7055dab.png",
+    "static/media/notes-sync.png": "/quack_website/static/media/notes-sync.36f4cb17e9a783ae99b8.png",
+    "static/media/power-dialing.png": "/quack_website/static/media/power-dialing.a213affd1a739e75dab6.png",
+    "static/media/advanced-filtration.png": "/quack_website/static/media/advanced-filtration.38dbda27e9587a3f5495.png",
+    "static/media/orange-rectangle.png": "/quack_website/static/media/orange-rectangle.5d17d70f82b150cdec00.png",
+    "static/media/parallel-dialing.png": "/quack_website/static/media/parallel-dialing.0fda0803665ad277358a.png",
+    "static/media/call-recordings.png": "/quack_website/static/media/call-recordings.5ba1c6de437ae8676867.png",
+    "static/media/data-sync.png": "/quack_website/static/media/data-sync.db0a5ad35632e43c16c7.png",
+    "static/media/orange-rectangle-2.png": "/quack_website/static/media/orange-rectangle-2.2bb1fb2916209a88aaa2.png",
+    "static/media/content-cards.png": "/quack_website/static/media/content-cards.da228776f6a1f822d236.png",
+    "static/media/team-analytics.png": "/quack_website/static/media/team-analytics.81c2958b32929ed0b379.png",
+    "static/media/users.png": "/quack_website/static/media/users.96fd6ba32f15b877c097.png",
+    "static/media/click-integration.png": "/quack_website/static/media/click-integration.42e74def620cd18ecce5.png",
+    "static/media/simple-to-use.png": "/quack_website/static/media/simple-to-use.dd17c76359e90dfb9e58.png",
+    "static/media/10x-faster-dialing.png": "/quack_website/static/media/10x-faster-dialing.2c2e68b0caa6e5198864.png",
+    "static/media/play-button.png": "/quack_website/static/media/play-button.eaa6d4d21e55b36ebaac.png",
+    "static/media/logo.png": "/quack_website/static/media/logo.3bc5a465f46aaa6ead9a.png",
+    "static/media/dan-dumond.png": "/quack_website/static/media/dan-dumond.edc776ca99c41c9871cc.png",
+    "static/media/orange-arrow.png": "/quack_website/static/media/orange-arrow.4915f6a48da0ccb0fdfe.png",
+    "static/media/trusted-companies.png": "/quack_website/static/media/trusted-companies.b6f0b58e7ded5854283d.png",
+    "index.html": "/quack_website/index.html",
+    "main.3ddfdb71.css.map": "/quack_website/static/css/main.3ddfdb71.css.map",
+    "main.64421070.js.map": "/quack_website/static/js/main.64421070.js.map",
+    "952.65dfea9e.chunk.js.map": "/quack_website/static/js/952.65dfea9e.chunk.js.map",
+    "453.c277977f.chunk.js.map": "/quack_website/static/js/453.c277977f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ddfdb71.css",
+    "static/js/main.64421070.js"
+  ]
+}
