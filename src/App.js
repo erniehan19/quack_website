@@ -13,6 +13,7 @@ import AnalyticsAndContentsCard from './component/analytics-and-contents-cards/a
 import Integrations from './component/integrations/integrations';
 import Privacy from './component/footer/privacy/privacy';
 import Terms from './component/footer/terms/terms';
+import AboutUs from './component/footer/about-us/about-us';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/integrations" element={<Integrations />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="about-us" element={<AboutUs />} />
       </Routes>
       <Footer />
     </Router>

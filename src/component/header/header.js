@@ -96,7 +96,7 @@ function Header() {
                             <Link to="/use-cases" className='nav-link'>Use Cases</Link>
                         </li>
                         <li>
-                            <Link to="/community" className='nav-link'>Community</Link>
+                            <a href="https://join.slack.com/t/quuuuuack/shared_invite/zt-2mvzyhvys-cUpS2RYJuq6KbkH~IORwGg" className='nav-link'>Community</a>
                         </li>
                         <li>
                             <Link to="/pricing" className='nav-link'>Pricing</Link>

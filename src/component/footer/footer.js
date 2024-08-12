@@ -42,8 +42,12 @@ function Footer() {
                 <div className='footer-column'>
                     <h4>Company</h4>
                     <ul>
-                        <li>About Us</li>
-                        <li>Referrals & Partnerships</li>
+                        <li><Link to="/about-us" className='nav-link'>About Us</Link></li>
+                        <li>
+                            <a href='https://quackdials.ca/quack-referrals?hs_preview=ACsewyEA-147841371041' className='nav-link'>
+                                <li>Referrals & Partnerships</li>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
