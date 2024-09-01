@@ -118,12 +118,12 @@ function Homepage() {
         <>
             <div className='body-content-homepage'>
                 <div className='body-main-content-homepage'>
-                    <h1> More Conversations. <br/> More Pipeline. </h1>
+                    <h1> More Conversations. More Pipeline. </h1>
                     <p> 
                         Quack is a parallel dialer that enables you to call multiple prospects <br />
                         simultaneously so you can speak to 2-3x more prospects per call block.
                     </p>
-                    <a href='https://www.g2.com/products/quack/reviews' target="_blank" rel="noreferrer"><img className='rating-image' src={ratingImage} alt='Rating' /></a>
+                    <a href='https://www.g2.com/products/quack/reviews' target="_blank" rel="noreferrer"><img className='rating-image-homepage' src={ratingImage} alt='Rating' /></a>
                     <a href="https://calendly.com/jakedicarlo/quack-dialer-demo-30min?month=2024-06" className='get-started-link'>
                         <button className='get-started-button'>Get Started</button>
                     </a>

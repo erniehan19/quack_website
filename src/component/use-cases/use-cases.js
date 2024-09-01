@@ -5,6 +5,8 @@ import orangeRectangle2 from '../../assets/orange-rectangle.png';
 import boastLogo from '../../assets/boast-logo.png';
 import profileImage from '../../assets/dan-dumond.png';
 import userPhoto from './assets/users.png'
+import dueTasks from './assets/due-tasks.png'
+import callBlocks from './assets/call-blocks.png'
 
 function UseCases() {
     const [selectedTab, setSelectedTab] = useState('SDRs');
@@ -16,7 +18,7 @@ function UseCases() {
                     <>
                         <div class="feature-container-use-cases">
                             <div class="feature-card-use-cases">
-                                <img src={userPhoto} alt='user' />
+                                <img src={dueTasks} alt='user' />
                                 <div class="feature-content-use-cases">
                                     <h2>Who wants to spend 4 hours dialing anymore?</h2>
                                     <p>Parallel dialing allows you to dial 10X faster, getting you to more conversations in way less time than dialing prospects 1 by 1 out of an SEP.</p>
@@ -80,7 +82,7 @@ function UseCases() {
                     <>
                         <div class="feature-container-use-cases">
                             <div class="feature-card-use-cases">
-                                <img src={userPhoto} alt='user' />
+                                <img src={callBlocks} alt='user' />
                                 <div class="feature-content-use-cases">
                                     <h2>Get your dials in during your <br/> busy schedule</h2>
                                     <p>
